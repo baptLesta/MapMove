@@ -15,10 +15,10 @@ public class ConnectionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connection);
 
-        final EditText id =(EditText) findViewById(R.id.etId);
-        final EditText password = (EditText) findViewById(R.id.etPassword);
+        final EditText etId =(EditText) findViewById(R.id.etId);
+        final EditText etPassword = (EditText) findViewById(R.id.etPassword);
 
-        final Button connection = (Button) findViewById(R.id.bConnection);
+        final Button bConnection = (Button) findViewById(R.id.bConnection);
 
         final TextView registerLink = (TextView) findViewById(R.id.tvRegister);
 
