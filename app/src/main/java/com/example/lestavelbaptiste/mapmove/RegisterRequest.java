@@ -24,6 +24,8 @@ public class RegisterRequest extends StringRequest{
     }
 
     @Override
-    public Map<String, String>
+    public Map<String, String> getParams() {
+        return params;
+    }
 }
 
